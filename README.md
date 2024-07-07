@@ -7,6 +7,9 @@ The makebubble function generates 110 bubbles with random numbers between 0 and 
 <h3 align="left" font-weight="bold">Score Management:  </h3> The scrincrease function increments the player's score by 10 points each time they click the correct bubble. 
 <h3 align="left" font-weight="bold">Game Interaction: </h3>  An event listener on the pbtm element checks if the clicked bubble's number matches the target number. If the player clicks the correct bubble, the score is increased, and new bubbles are generated with a new target number.
 
+<p>
+  
+</p>
 
 <a href="https://mohd-arish.github.io/Find-the-Bubble" target="_blank">Play the Game</a>
 
