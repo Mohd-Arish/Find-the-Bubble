@@ -9,7 +9,7 @@ The makebubble function generates 110 bubbles with random numbers between 0 and 
 
 
 <h3 align="left" font-weight="bold"> Play the Game: </h3>
-<a href="https://mohd-arish.github.io/Find-the-Bubble" target="_blank"></a>
+<a href="https://mohd-arish.github.io/Find-the-Bubble" target="_blank" color="blue"></a>
 
 
 <h3 align="left">Languages and Tools:</h3>
