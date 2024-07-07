@@ -9,6 +9,11 @@ html, body{
     width: 100;
 }
 
+.all-width{
+    max-height: 100%;
+    margin: auto;
+}
+
 #main{
     display: flex;
     justify-content: center;
@@ -83,40 +88,100 @@ html, body{
 
 
 
- @media only screen and(max-width: 600px){
-    #ptop{
-        max-width: 100%;
-        padding: 0;
+@media (max-width: 600px) {
+    #panel {
+        width: 90%;
+        height: 90%;
     }
- 
+
     #ptop {
-        height: 100%;
-        width: 100%;
-        padding: 0 20px; 
+        height: 80px;
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    .elem {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .box {
+        font-size: 18px;
+        padding: 5px 10px;
+    }
+
+    #pbtm {
+        gap: 5px;
+    }
+
+    .bubble {
+        height: 35px;
+        width: 35px;
     }
 }
 
-@media only screen and(max-width: 600px){
-    .elem h2{
-        /* height: 100%;
-        width: 100%; */
-        padding: 12px 10px;
-        margin: 12px 20px;
-        gap: 20px;
+@media (max-width: 400px) {
+    #panel {
+        width: 95%;
+        height: 95%;
     }
 
-    .elem .box{
+    #ptop {
+        height: 70px;
+        padding: 5px;
+    }
+
+    .box {
         font-size: 15px;
-        padding: 30px 30px;
-        margin: 30px;
+        padding: 5px 5px;
+    }
+
+    .bubble {
+        height: 30px;
+        width: 30px;
     }
 }
 
-@media only screen and(max-width: 600px){
-#panel{
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    overflow: scroll;
+@media (max-height: 600px) {
+    #panel {
+        height: 90%;
+    }
+
+    #ptop {
+        height: 80px;
+        padding: 5px;
+    }
+
+    .box {
+        font-size: 20px;
+        padding: 5px 10px;
+    }
+
+    .bubble {
+        height: 40px;
+        width: 40px;
+    }
 }
+
+@media (max-height: 400px) {
+    #panel {
+        height: 95%;
+    }
+
+    #ptop {
+        height: 70px;
+        padding: 5px;
+    }
+
+    .box {
+        font-size: 15px;
+        padding: 5px 5px;
+    }
+
+    .bubble {
+        height: 30px;
+        width: 30px;
+    }
 }
+
+
