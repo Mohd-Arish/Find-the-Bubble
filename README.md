@@ -8,8 +8,7 @@ The makebubble function generates 110 bubbles with random numbers between 0 and 
 <h3 align="left" font-weight="bold">Game Interaction: </h3>  An event listener on the pbtm element checks if the clicked bubble's number matches the target number. If the player clicks the correct bubble, the score is increased, and new bubbles are generated with a new target number.
 
 
-<h3 align="left" font-weight="bold"> Play the Game: </h3>
-<a href="https://mohd-arish.github.io/Find-the-Bubble" target="_blank" color="blue"></a>
+<a href="https://mohd-arish.github.io/Find-the-Bubble" target="_blank">Play the Game</a>
 
 
 <h3 align="left">Languages and Tools:</h3>
